@@ -15,6 +15,6 @@ public class Exercise4 {
         double Widthcm = Width * conversion;
         double result = (2* Heightcm) + (2 * Widthcm);
 
-        System.out.println( deci.format(result) + " centimeters.");
+        System.out.println("\n" + deci.format(result) + " centimeters.");
     }
 }

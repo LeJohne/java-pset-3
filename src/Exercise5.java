@@ -35,6 +35,6 @@ public class Exercise5 {
         double Test_section = Test1 * Test_Weight;
         double result = Hw_section + Quiz_section + Test_section;
 
-        System.out.println(deci.format(result) + "%");
+        System.out.println("\n" + deci.format(result) + "%.");
     }
 }

@@ -15,6 +15,6 @@ public class Exercise3 {
         double Widthmm = Width * conversion;
         double result = Heightmm * Widthmm;
 
-        System.out.println( deci.format(result) + " square millimeters.");
+        System.out.println("\n" + deci.format(result) + " square millimeters.");
     }
 }
